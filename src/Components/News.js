@@ -28,7 +28,7 @@ const News = () => {
 
   return (
     <div className="blog__page">
-      <h1 className="blog__page__header">Blogs</h1>
+      <h1 className="blog__page__header">News</h1>
       {loading ? <h1 className="loading">Loading...</h1> : ""}
       <div className="blogs">
         {news?.articles?.map((blog) => (
